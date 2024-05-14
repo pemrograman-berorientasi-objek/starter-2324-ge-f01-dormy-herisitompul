@@ -28,9 +28,9 @@ public class Student {
     @JoinColumn(name = "dorm_name")
     private Dorm dorm;
 
-    public Student() {
-        // Konstruktor tanpa argumen
-    }
+    // public Student() {
+    //     // Konstruktor tanpa argumen
+    // }
 
     public Student(String id, String name, String year, String gender) {
         this.id = id;
