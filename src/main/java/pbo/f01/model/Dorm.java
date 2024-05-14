@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name = "dorms")
 public class Dorm {
 
-    @Id
+    @Id //primary key
     @Column(name = "name", nullable = false, length = 40)
     private String name;
 

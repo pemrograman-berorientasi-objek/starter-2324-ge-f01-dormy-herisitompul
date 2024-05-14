@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "students")
 public class Student {
 
-    @Id
+    @Id //primary key
     @Column(name = "id", nullable = false, length = 10)
     private String id;
 
