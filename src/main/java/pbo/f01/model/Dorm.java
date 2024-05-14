@@ -27,9 +27,9 @@ public class Dorm {
     @OneToMany(mappedBy = "dorm", targetEntity = Student.class, cascade = CascadeType.ALL)
     private Set<Student> residents;
 
-    // public Dorm() {
-    //     // Konstruktor tanpa argumen
-    // }
+    public Dorm() {
+        // Konstruktor tanpa argumen
+    }
 
     public Dorm(String name, Integer capacity, String gender) {
         this.name = name;

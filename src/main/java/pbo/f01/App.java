@@ -15,9 +15,6 @@ import pbo.f01.model.Student;
  */
 
 public class App {
-
-    // static final String DATA_SEPARATOR = "#";
-
     public static void main(String[] _args) {
         Constrac constractor = new Constrac("dormy_pu");
         Scanner scanner = new Scanner(System.in);
