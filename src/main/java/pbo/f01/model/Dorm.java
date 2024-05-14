@@ -1,5 +1,12 @@
 package pbo.f01.model;
 
+/**
+ * 12S22033 - Mickael Sitompul
+ * 12S22027 - Ferry Panjaitan
+ * mvn clean compile assembly:single
+ * java -cp .\target\f01-1.0-SNAPSHOT-jar-with-dependencies.jar pbo.f01.App
+ */
+
 import java.util.Set;
 import java.util.TreeSet;
 
